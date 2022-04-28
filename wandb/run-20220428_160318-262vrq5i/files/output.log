@@ -1,0 +1,34 @@
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
+validation:  44%|████▍     | 267/600 [00:01<00:01, 279.85it/s]
+
+validation: 100%|██████████| 600/600 [00:02<00:00, 259.60it/s]
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
+
+validation:  79%|███████▉  | 476/600 [00:02<00:00, 258.35it/s]
+1 epoch, 0 step: val_loss: 0.23074686527252197, val_acc: 0.11883307248353958
+Validation loss decreased (inf --> 0.230747).  Saving model ...
+validation: 100%|██████████| 600/600 [00:02<00:00, 217.87it/s]
+train:   9%|▊         | 47/540 [00:01<00:12, 40.64it/s]
+
+train:  19%|█▊        | 100/540 [00:03<00:13, 31.58it/s]
+validation:  22%|██▏       | 132/600 [00:01<00:04, 108.39it/s]
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
+1 epoch, 0 step: val_loss: 0.0997157096862793, val_acc: 0.7010003328323364
+validation: 100%|██████████| 600/600 [00:03<00:00, 185.89it/s]
+train:   0%|          | 0/540 [00:00<?, ?it/s]
+
+train:  14%|█▍        | 76/540 [00:01<00:10, 42.30it/s]
+
+train:  19%|█▊        | 100/540 [00:02<00:11, 36.75it/s]
+The tensorboard extension is already loaded. To reload it, use:
+  %reload_ext tensorboard
+validation:  28%|██▊       | 170/600 [00:00<00:01, 242.22it/s]
+1 epoch, 0 step: val_loss: 0.0626855120062828, val_acc: 0.7801657319068909
+Validation loss decreased (inf --> 0.062686).  Saving model ...
+validation: 100%|██████████| 600/600 [00:02<00:00, 247.92it/s]
+
+
+train:  19%|█▊        | 100/540 [00:02<00:12, 36.30it/s]

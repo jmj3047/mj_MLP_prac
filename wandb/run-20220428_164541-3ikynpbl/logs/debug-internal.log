@@ -1,0 +1,944 @@
+2022-04-28 16:45:48,720 INFO    MainThread:9022 [internal.py:wandb_internal():90] W&B internal server running at pid: 9022, started at: 2022-04-28 16:45:48.720407
+2022-04-28 16:45:48,724 INFO    WriterThread:9022 [datastore.py:open_for_write():75] open: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/run-3ikynpbl.wandb
+2022-04-28 16:45:48,728 DEBUG   SenderThread:9022 [sender.py:send():232] send: header
+2022-04-28 16:45:48,728 DEBUG   SenderThread:9022 [sender.py:send():232] send: run
+2022-04-28 16:45:49,042 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: check_version
+2022-04-28 16:45:49,095 INFO    SenderThread:9022 [dir_watcher.py:__init__():166] watching files in: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files
+2022-04-28 16:45:49,095 INFO    SenderThread:9022 [sender.py:_start_run_threads():811] run started: 3ikynpbl with start time 1651131947
+2022-04-28 16:45:49,095 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:45:49,096 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:45:49,096 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: check_version
+2022-04-28 16:45:49,165 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: run_start
+2022-04-28 16:45:50,179 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:45:50,473 DEBUG   HandlerThread:9022 [meta.py:__init__():35] meta init
+2022-04-28 16:45:50,474 DEBUG   HandlerThread:9022 [meta.py:__init__():49] meta init done
+2022-04-28 16:45:50,474 DEBUG   HandlerThread:9022 [meta.py:probe():209] probe
+2022-04-28 16:45:50,482 DEBUG   HandlerThread:9022 [meta.py:_setup_git():199] setup git
+2022-04-28 16:45:50,528 DEBUG   HandlerThread:9022 [meta.py:_setup_git():206] setup git done
+2022-04-28 16:45:50,528 DEBUG   HandlerThread:9022 [meta.py:_save_pip():53] save pip
+2022-04-28 16:45:50,530 DEBUG   HandlerThread:9022 [meta.py:_save_pip():67] save pip done
+2022-04-28 16:45:50,530 DEBUG   HandlerThread:9022 [meta.py:_save_conda():74] save conda
+2022-04-28 16:45:51,177 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/conda-environment.yaml
+2022-04-28 16:45:51,179 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/requirements.txt
+2022-04-28 16:45:55,180 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:03,014 DEBUG   HandlerThread:9022 [meta.py:_save_conda():84] save conda done
+2022-04-28 16:46:03,015 DEBUG   HandlerThread:9022 [meta.py:probe():247] probe done
+2022-04-28 16:46:03,025 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:46:03,026 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 16:46:03,027 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:46:03,027 INFO    HandlerThread:9022 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 16:46:03,188 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/conda-environment.yaml
+2022-04-28 16:46:03,189 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-metadata.json
+2022-04-28 16:46:03,288 DEBUG   SenderThread:9022 [sender.py:send():232] send: telemetry
+2022-04-28 16:46:03,480 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:03,480 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-04-28 16:46:03,481 DEBUG   SenderThread:9022 [sender.py:send():232] send: stats
+2022-04-28 16:46:04,175 INFO    Thread-11 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2p8xcbja-wandb-metadata.json
+2022-04-28 16:46:04,855 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 16:46:04,856 INFO    HandlerThread:9022 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 16:46:07,190 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:08,370 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:08,371 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/val_0_4eb6eb3f853b281faf55.png with policy now
+2022-04-28 16:46:08,372 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:08,679 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:08,679 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_0_9c4d10052b3286971401.png with policy now
+2022-04-28 16:46:08,680 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:09,104 INFO    Thread-13 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/aggaeri0-media/images/Images/val_0_4eb6eb3f853b281faf55.png
+2022-04-28 16:46:09,194 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:09,194 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_0_4eb6eb3f853b281faf55.png
+2022-04-28 16:46:09,194 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_0_9c4d10052b3286971401.png
+2022-04-28 16:46:09,194 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media
+2022-04-28 16:46:09,195 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:09,195 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images
+2022-04-28 16:46:09,708 INFO    Thread-14 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/1e95rz4j-media/images/Images/train_0_9c4d10052b3286971401.png
+2022-04-28 16:46:11,195 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:12,161 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:12,162 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:12,162 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_0_f09ec775b168767f7f7f.png with policy now
+2022-04-28 16:46:12,166 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:12,167 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:12,169 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:12,195 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:12,196 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_0_f09ec775b168767f7f7f.png
+2022-04-28 16:46:12,196 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:13,123 INFO    Thread-15 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/1skwa3kx-media/images/Images/train_0_f09ec775b168767f7f7f.png
+2022-04-28 16:46:13,200 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:14,188 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:46:14,189 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:46:15,201 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:15,788 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:15,788 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_100_772346e4d80b879d27ef.png with policy now
+2022-04-28 16:46:15,788 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:15,791 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:15,792 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:15,794 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:16,202 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:16,202 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_100_772346e4d80b879d27ef.png
+2022-04-28 16:46:16,202 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:16,766 INFO    Thread-16 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/19c76c4s-media/images/Images/train_100_772346e4d80b879d27ef.png
+2022-04-28 16:46:17,202 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:19,003 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:19,003 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_200_9967bbfbd4cb8eece6c7.png with policy now
+2022-04-28 16:46:19,003 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:19,204 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:19,204 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_200_9967bbfbd4cb8eece6c7.png
+2022-04-28 16:46:19,204 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:19,243 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:19,244 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:19,247 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:20,096 INFO    Thread-17 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2070h44r-media/images/Images/train_200_9967bbfbd4cb8eece6c7.png
+2022-04-28 16:46:20,204 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/config.yaml
+2022-04-28 16:46:20,205 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:21,205 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:22,150 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:22,151 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_300_988d507c062425abbc80.png with policy now
+2022-04-28 16:46:22,151 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:22,156 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:22,158 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:22,165 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:22,206 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:22,206 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_300_988d507c062425abbc80.png
+2022-04-28 16:46:22,206 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:23,150 INFO    Thread-18 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/15xl5u2b-media/images/Images/train_300_988d507c062425abbc80.png
+2022-04-28 16:46:23,207 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:25,208 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:25,870 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:25,871 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:25,874 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_400_5070e7b20edef76c940e.png with policy now
+2022-04-28 16:46:25,876 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:25,878 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:25,881 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:26,209 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:26,209 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_400_5070e7b20edef76c940e.png
+2022-04-28 16:46:26,210 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:26,971 INFO    Thread-19 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2qpa82yd-media/images/Images/train_400_5070e7b20edef76c940e.png
+2022-04-28 16:46:27,210 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:29,212 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:29,422 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:46:29,423 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:46:30,887 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:30,888 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/val_500_1e08670bd870fd10e348.png with policy now
+2022-04-28 16:46:30,888 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:30,892 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:30,893 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:30,895 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:31,213 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:31,214 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:31,214 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_500_1e08670bd870fd10e348.png
+2022-04-28 16:46:31,214 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:31,607 INFO    Thread-20 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/32q98611-media/images/Images/val_500_1e08670bd870fd10e348.png
+2022-04-28 16:46:33,216 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:33,328 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:33,328 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_540_52e7ccee9d70bbcbf603.png with policy now
+2022-04-28 16:46:33,329 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:33,331 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:33,332 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:33,337 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:34,216 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:34,216 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_540_52e7ccee9d70bbcbf603.png
+2022-04-28 16:46:34,217 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:34,291 INFO    Thread-21 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/oagbkba8-media/images/Images/train_540_52e7ccee9d70bbcbf603.png
+2022-04-28 16:46:35,217 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:36,479 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:36,480 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_600_613fdc0a4e85403f24da.png with policy now
+2022-04-28 16:46:36,480 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:36,483 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:36,484 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:36,485 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:37,219 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:37,219 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:37,219 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_600_613fdc0a4e85403f24da.png
+2022-04-28 16:46:37,220 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:37,481 INFO    Thread-22 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2t6bwtcy-media/images/Images/train_600_613fdc0a4e85403f24da.png
+2022-04-28 16:46:39,220 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:39,606 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:39,606 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:39,607 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_700_031c9ae801bb37122e9a.png with policy now
+2022-04-28 16:46:39,612 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:39,613 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:39,615 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:40,221 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:40,221 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_700_031c9ae801bb37122e9a.png
+2022-04-28 16:46:40,221 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:40,426 INFO    Thread-23 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/3b8qcepg-media/images/Images/train_700_031c9ae801bb37122e9a.png
+2022-04-28 16:46:41,222 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:41,884 DEBUG   SenderThread:9022 [sender.py:send():232] send: stats
+2022-04-28 16:46:42,655 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:42,656 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_800_9df908fda2148db60e15.png with policy now
+2022-04-28 16:46:42,656 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:42,660 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:42,661 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:42,668 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:43,223 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:43,224 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:43,224 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_800_9df908fda2148db60e15.png
+2022-04-28 16:46:43,224 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:43,667 INFO    Thread-24 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/151rc7fm-media/images/Images/train_800_9df908fda2148db60e15.png
+2022-04-28 16:46:44,650 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:46:44,651 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:46:45,225 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:46,363 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:46,364 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_900_30700c7bfa0f3511907b.png with policy now
+2022-04-28 16:46:46,364 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:46,367 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:46,368 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:46,369 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:47,227 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:47,227 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:47,227 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_900_30700c7bfa0f3511907b.png
+2022-04-28 16:46:47,227 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:47,428 INFO    Thread-25 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2stodqsi-media/images/Images/train_900_30700c7bfa0f3511907b.png
+2022-04-28 16:46:49,229 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:51,231 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:52,061 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:52,063 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:52,064 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/val_1000_1e058c64b01129871bed.png with policy now
+2022-04-28 16:46:52,066 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:52,068 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:52,072 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:52,232 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:52,232 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_1000_1e058c64b01129871bed.png
+2022-04-28 16:46:52,232 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:52,743 INFO    Thread-26 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/30w7e1pg-media/images/Images/val_1000_1e058c64b01129871bed.png
+2022-04-28 16:46:52,824 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:52,824 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_1080_1a0545dac7ac29c739b0.png with policy now
+2022-04-28 16:46:52,825 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:52,827 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:52,828 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:52,830 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:53,233 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:53,233 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:53,233 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1080_1a0545dac7ac29c739b0.png
+2022-04-28 16:46:53,233 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:53,586 INFO    Thread-27 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/25tlhsuo-media/images/Images/train_1080_1a0545dac7ac29c739b0.png
+2022-04-28 16:46:55,235 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:56,681 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:56,681 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_1100_c3907863ebab5ead6bf1.png with policy now
+2022-04-28 16:46:56,682 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:56,686 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:56,688 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:56,691 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:57,236 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:57,237 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:46:57,237 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1100_c3907863ebab5ead6bf1.png
+2022-04-28 16:46:57,237 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:46:57,670 INFO    Thread-28 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/6jdnj0b3-media/images/Images/train_1100_c3907863ebab5ead6bf1.png
+2022-04-28 16:46:59,238 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:46:59,844 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:46:59,844 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_1200_d88afe6e748ac96a0ec8.png with policy now
+2022-04-28 16:46:59,844 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:46:59,847 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:46:59,848 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:46:59,850 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:46:59,858 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:46:59,860 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:47:00,240 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:00,240 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1200_d88afe6e748ac96a0ec8.png
+2022-04-28 16:47:00,241 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:00,993 INFO    Thread-29 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/238xum1y-media/images/Images/train_1200_d88afe6e748ac96a0ec8.png
+2022-04-28 16:47:01,240 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:03,042 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:03,042 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_1300_c3c7bd353f4d6f65cf18.png with policy now
+2022-04-28 16:47:03,043 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:03,047 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:03,049 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:03,051 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:03,242 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:03,242 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:03,243 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1300_c3c7bd353f4d6f65cf18.png
+2022-04-28 16:47:03,243 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:04,145 INFO    Thread-30 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2p6urls2-media/images/Images/train_1300_c3c7bd353f4d6f65cf18.png
+2022-04-28 16:47:05,253 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:06,156 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:06,157 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_1400_34ac42fc8464c20d386e.png with policy now
+2022-04-28 16:47:06,158 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:06,165 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:06,168 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:06,170 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:06,254 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:06,255 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1400_34ac42fc8464c20d386e.png
+2022-04-28 16:47:06,255 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:07,141 INFO    Thread-31 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/4094zfnn-media/images/Images/train_1400_34ac42fc8464c20d386e.png
+2022-04-28 16:47:07,257 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:09,259 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:10,040 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:10,041 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:10,045 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_1500_f32fd069ab82b605dd48.png with policy now
+2022-04-28 16:47:10,046 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:10,047 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:10,049 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:10,260 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:10,260 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1500_f32fd069ab82b605dd48.png
+2022-04-28 16:47:10,260 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:11,058 INFO    Thread-32 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/nwfbo4fr-media/images/Images/train_1500_f32fd069ab82b605dd48.png
+2022-04-28 16:47:11,260 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:13,273 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:13,685 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:13,685 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/val_1600_ecc2ea0226c270b16f05.png with policy now
+2022-04-28 16:47:13,686 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:13,690 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:13,691 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:13,692 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:14,274 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:14,274 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_1600_ecc2ea0226c270b16f05.png
+2022-04-28 16:47:14,275 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:14,385 INFO    Thread-33 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/mgie21vj-media/images/Images/val_1600_ecc2ea0226c270b16f05.png
+2022-04-28 16:47:15,082 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:47:15,082 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:47:15,275 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:16,554 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:16,555 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_1620_6b8253e998a95112cbf4.png with policy now
+2022-04-28 16:47:16,555 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:16,558 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:16,559 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:16,561 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:17,277 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:17,277 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:17,277 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1620_6b8253e998a95112cbf4.png
+2022-04-28 16:47:17,277 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:17,543 INFO    Thread-34 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/1riw2n1q-media/images/Images/train_1620_6b8253e998a95112cbf4.png
+2022-04-28 16:47:19,278 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:19,682 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:19,682 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_1700_1ebbe67ef73974869b3a.png with policy now
+2022-04-28 16:47:19,683 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:19,685 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:19,687 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:19,689 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:20,280 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:20,280 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1700_1ebbe67ef73974869b3a.png
+2022-04-28 16:47:20,281 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:20,790 INFO    Thread-35 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2dz4y194-media/images/Images/train_1700_1ebbe67ef73974869b3a.png
+2022-04-28 16:47:21,264 DEBUG   SenderThread:9022 [sender.py:send():232] send: stats
+2022-04-28 16:47:21,280 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:23,254 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:23,254 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_1800_722b5ed01801cb2da0fd.png with policy now
+2022-04-28 16:47:23,255 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:23,257 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:23,258 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:23,259 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:23,283 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:23,283 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:23,284 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1800_722b5ed01801cb2da0fd.png
+2022-04-28 16:47:23,284 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:24,311 INFO    Thread-36 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/ms72zaez-media/images/Images/train_1800_722b5ed01801cb2da0fd.png
+2022-04-28 16:47:25,285 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:26,287 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:26,287 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_1900_55789cf07c33f4684fcc.png with policy now
+2022-04-28 16:47:26,288 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:26,293 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:26,294 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:26,296 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:27,281 INFO    Thread-37 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/3kq0lz58-media/images/Images/train_1900_55789cf07c33f4684fcc.png
+2022-04-28 16:47:27,288 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:27,288 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:27,288 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1900_55789cf07c33f4684fcc.png
+2022-04-28 16:47:27,289 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:29,290 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:29,403 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:29,404 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_2000_a49eb0664318ba5d1c3c.png with policy now
+2022-04-28 16:47:29,404 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:29,407 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:29,407 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:29,409 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:30,288 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:47:30,289 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:47:30,293 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:30,293 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2000_a49eb0664318ba5d1c3c.png
+2022-04-28 16:47:30,293 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:30,447 INFO    Thread-38 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/q8muyfen-media/images/Images/train_2000_a49eb0664318ba5d1c3c.png
+2022-04-28 16:47:31,295 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:33,298 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:34,795 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:34,795 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/val_2100_e53119859bb5521c818d.png with policy now
+2022-04-28 16:47:34,797 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:34,799 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:34,800 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:34,801 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:35,299 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:35,300 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:35,300 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_2100_e53119859bb5521c818d.png
+2022-04-28 16:47:35,300 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:35,527 INFO    Thread-39 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/66myc8yu-media/images/Images/val_2100_e53119859bb5521c818d.png
+2022-04-28 16:47:36,706 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:36,706 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_2160_d89018b70d63b6515b87.png with policy now
+2022-04-28 16:47:36,707 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:36,710 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:36,711 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:36,713 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:37,301 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:37,301 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:37,302 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2160_d89018b70d63b6515b87.png
+2022-04-28 16:47:37,302 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:37,733 INFO    Thread-40 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2h8fpkam-media/images/Images/train_2160_d89018b70d63b6515b87.png
+2022-04-28 16:47:39,304 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:40,179 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:40,179 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_2200_94b590fc6d7e88982e24.png with policy now
+2022-04-28 16:47:40,180 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:40,183 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:40,185 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:40,187 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:40,304 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:40,305 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2200_94b590fc6d7e88982e24.png
+2022-04-28 16:47:40,305 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:41,306 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:41,314 INFO    Thread-41 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2k1s0j35-media/images/Images/train_2200_94b590fc6d7e88982e24.png
+2022-04-28 16:47:43,308 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:43,313 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:43,314 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_2300_fa7dca18311185a3a026.png with policy now
+2022-04-28 16:47:43,314 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:43,320 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:43,321 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:43,333 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:44,309 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:44,309 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2300_fa7dca18311185a3a026.png
+2022-04-28 16:47:44,310 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:44,428 INFO    Thread-42 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/1nu3mje8-media/images/Images/train_2300_fa7dca18311185a3a026.png
+2022-04-28 16:47:45,310 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:45,501 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:47:45,502 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:47:47,313 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:47,364 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:47,365 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:47,365 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_2400_c40f35029b1cc5c7f5a8.png with policy now
+2022-04-28 16:47:47,369 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:47,371 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:47,373 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:48,314 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:48,314 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2400_c40f35029b1cc5c7f5a8.png
+2022-04-28 16:47:48,314 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:48,799 INFO    Thread-43 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2xt7maiv-media/images/Images/train_2400_c40f35029b1cc5c7f5a8.png
+2022-04-28 16:47:49,315 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:50,812 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:50,813 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_2500_a6fb02f6a2c0f5718a0d.png with policy now
+2022-04-28 16:47:50,813 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:50,819 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:50,821 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:50,832 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:51,317 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:51,317 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:51,318 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2500_a6fb02f6a2c0f5718a0d.png
+2022-04-28 16:47:51,318 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:52,700 INFO    Thread-44 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/3fhpuk4s-media/images/Images/train_2500_a6fb02f6a2c0f5718a0d.png
+2022-04-28 16:47:53,319 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:55,332 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:57,336 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:47:57,838 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:57,839 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:57,840 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/val_2600_034428e37251ee8f7042.png with policy now
+2022-04-28 16:47:57,844 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:47:57,845 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:47:57,847 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:47:58,126 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:47:58,127 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_2700_6385ad00910376da1ddc.png with policy now
+2022-04-28 16:47:58,127 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:47:58,337 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:47:58,338 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_2600_034428e37251ee8f7042.png
+2022-04-28 16:47:58,338 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2700_6385ad00910376da1ddc.png
+2022-04-28 16:47:58,338 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:47:58,636 INFO    Thread-45 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/1u0cyxa2-media/images/Images/val_2600_034428e37251ee8f7042.png
+2022-04-28 16:47:58,887 INFO    Thread-46 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/kwwuh27v-media/images/Images/train_2700_6385ad00910376da1ddc.png
+2022-04-28 16:47:59,338 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:00,593 DEBUG   SenderThread:9022 [sender.py:send():232] send: stats
+2022-04-28 16:48:00,701 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:48:00,702 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:48:01,342 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:01,402 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:01,402 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_2700_2d8a96777a8a12ab8c77.png with policy now
+2022-04-28 16:48:01,403 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:01,406 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:01,407 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:01,409 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:02,173 INFO    Thread-47 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/15n94opv-media/images/Images/train_2700_2d8a96777a8a12ab8c77.png
+2022-04-28 16:48:02,343 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:02,343 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2700_2d8a96777a8a12ab8c77.png
+2022-04-28 16:48:02,343 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:03,344 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:05,218 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:05,219 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:05,219 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_2800_6216a58603bbfdbb9c77.png with policy now
+2022-04-28 16:48:05,224 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:05,225 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:05,227 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:05,346 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:05,346 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:05,346 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2800_6216a58603bbfdbb9c77.png
+2022-04-28 16:48:05,347 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:06,260 INFO    Thread-48 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/12e6iyf7-media/images/Images/train_2800_6216a58603bbfdbb9c77.png
+2022-04-28 16:48:07,349 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:08,635 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:08,635 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_2900_65d45d6557271d3a0f50.png with policy now
+2022-04-28 16:48:08,636 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:08,641 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:08,642 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:08,653 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:09,352 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:09,353 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:09,353 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2900_65d45d6557271d3a0f50.png
+2022-04-28 16:48:09,353 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:09,775 INFO    Thread-49 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/64ipal2q-media/images/Images/train_2900_65d45d6557271d3a0f50.png
+2022-04-28 16:48:10,356 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:11,359 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:11,901 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:11,902 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_3000_2dec1d91b787bd9cd97c.png with policy now
+2022-04-28 16:48:11,902 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:11,909 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:11,911 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:11,914 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:12,359 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:12,360 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:12,360 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3000_2dec1d91b787bd9cd97c.png
+2022-04-28 16:48:12,360 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:12,917 INFO    Thread-50 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/1ntyp7wg-media/images/Images/train_3000_2dec1d91b787bd9cd97c.png
+2022-04-28 16:48:13,361 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:14,975 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:14,976 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_3100_fe339869519822993bda.png with policy now
+2022-04-28 16:48:14,976 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:14,982 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:14,983 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:14,986 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:15,363 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:15,364 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:15,364 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3100_fe339869519822993bda.png
+2022-04-28 16:48:15,364 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:15,919 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:48:15,921 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:48:16,042 INFO    Thread-51 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2s31btol-media/images/Images/train_3100_fe339869519822993bda.png
+2022-04-28 16:48:16,366 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:17,368 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:19,369 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:19,951 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:19,952 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/val_3200_cfaca721bca18b2b8507.png with policy now
+2022-04-28 16:48:19,952 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:19,959 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:19,960 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:19,962 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:20,371 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:20,371 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:20,371 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_3200_cfaca721bca18b2b8507.png
+2022-04-28 16:48:20,371 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:20,691 INFO    Thread-52 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/3jjw6njs-media/images/Images/val_3200_cfaca721bca18b2b8507.png
+2022-04-28 16:48:21,373 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:22,341 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:22,341 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_3240_4757f92a31055d483c33.png with policy now
+2022-04-28 16:48:22,342 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:22,347 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:22,348 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:22,350 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:22,375 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:22,376 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:22,376 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3240_4757f92a31055d483c33.png
+2022-04-28 16:48:22,376 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:23,376 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:23,406 INFO    Thread-53 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/37eism8p-media/images/Images/train_3240_4757f92a31055d483c33.png
+2022-04-28 16:48:24,378 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:25,380 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:25,432 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:25,432 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_3300_bd62f9bd427c90da61cd.png with policy now
+2022-04-28 16:48:25,432 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:25,436 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:25,436 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:25,438 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:26,255 INFO    Thread-54 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2cce1wbr-media/images/Images/train_3300_bd62f9bd427c90da61cd.png
+2022-04-28 16:48:26,397 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:26,398 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:26,398 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3300_bd62f9bd427c90da61cd.png
+2022-04-28 16:48:26,398 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:27,401 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:28,549 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:28,552 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:28,552 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_3400_aa73eea51934498eb489.png with policy now
+2022-04-28 16:48:28,554 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:28,564 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:28,566 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:29,403 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:29,403 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:29,404 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3400_aa73eea51934498eb489.png
+2022-04-28 16:48:29,404 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:29,482 INFO    Thread-55 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/17yo369q-media/images/Images/train_3400_aa73eea51934498eb489.png
+2022-04-28 16:48:30,404 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:31,382 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:48:31,382 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:48:31,405 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:32,299 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:32,300 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_3500_a0f4360bf648db93f5b1.png with policy now
+2022-04-28 16:48:32,301 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:32,306 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:32,307 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:32,308 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:32,407 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:32,407 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3500_a0f4360bf648db93f5b1.png
+2022-04-28 16:48:32,408 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:33,120 INFO    Thread-56 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/3o8ym4ci-media/images/Images/train_3500_a0f4360bf648db93f5b1.png
+2022-04-28 16:48:33,408 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:34,419 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:35,421 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:35,424 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:35,425 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_3600_4c490265127b5d1f621d.png with policy now
+2022-04-28 16:48:35,425 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:35,428 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:35,429 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:35,431 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:36,423 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:36,423 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:36,424 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3600_4c490265127b5d1f621d.png
+2022-04-28 16:48:36,424 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:36,526 INFO    Thread-57 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2rw8x08i-media/images/Images/train_3600_4c490265127b5d1f621d.png
+2022-04-28 16:48:38,427 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:40,431 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:40,755 DEBUG   SenderThread:9022 [sender.py:send():232] send: stats
+2022-04-28 16:48:41,266 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:41,267 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/val_3700_be1013d197c3cc276f50.png with policy now
+2022-04-28 16:48:41,267 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:41,270 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:41,271 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:41,273 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:41,434 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:41,434 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_3700_be1013d197c3cc276f50.png
+2022-04-28 16:48:41,434 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:41,983 INFO    Thread-58 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/1jbick29-media/images/Images/val_3700_be1013d197c3cc276f50.png
+2022-04-28 16:48:42,435 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:42,793 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:42,793 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_3780_6b1c3c71108a1b5d78c3.png with policy now
+2022-04-28 16:48:42,795 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:42,797 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:42,798 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:42,800 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:43,436 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:43,437 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3780_6b1c3c71108a1b5d78c3.png
+2022-04-28 16:48:43,437 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:43,520 INFO    Thread-59 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2mw893bj-media/images/Images/train_3780_6b1c3c71108a1b5d78c3.png
+2022-04-28 16:48:44,437 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:46,110 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:46,111 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:46,111 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_3800_47d0df596d95278db478.png with policy now
+2022-04-28 16:48:46,118 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:46,120 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:46,132 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:46,442 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:46,442 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:46,443 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3800_47d0df596d95278db478.png
+2022-04-28 16:48:46,443 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:46,612 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:48:46,613 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:48:46,874 INFO    Thread-60 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2l3vdidv-media/images/Images/train_3800_47d0df596d95278db478.png
+2022-04-28 16:48:48,445 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:49,405 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:49,405 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_3900_b26f0cc27543741beb79.png with policy now
+2022-04-28 16:48:49,405 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:49,411 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:49,413 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:49,415 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:49,448 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:49,448 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3900_b26f0cc27543741beb79.png
+2022-04-28 16:48:49,448 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:50,235 INFO    Thread-61 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2jkv2hii-media/images/Images/train_3900_b26f0cc27543741beb79.png
+2022-04-28 16:48:50,450 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:52,453 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:53,160 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:53,160 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_4000_db2627dc2c73c6c12e0a.png with policy now
+2022-04-28 16:48:53,163 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:53,168 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:53,169 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:53,172 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:53,455 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:53,455 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4000_db2627dc2c73c6c12e0a.png
+2022-04-28 16:48:53,456 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:53,929 INFO    Thread-62 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/fyxhof9c-media/images/Images/train_4000_db2627dc2c73c6c12e0a.png
+2022-04-28 16:48:54,457 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:56,262 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:56,262 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_4100_7bbdf3dc8719c65f4fa7.png with policy now
+2022-04-28 16:48:56,263 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:56,267 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:56,268 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:56,270 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:56,462 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:56,463 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:56,463 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4100_7bbdf3dc8719c65f4fa7.png
+2022-04-28 16:48:56,463 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:48:58,076 INFO    Thread-63 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/158wlfq1-media/images/Images/train_4100_7bbdf3dc8719c65f4fa7.png
+2022-04-28 16:48:58,465 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:48:59,449 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:48:59,450 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:48:59,450 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_4200_0aa416c6417390a5d0dc.png with policy now
+2022-04-28 16:48:59,455 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:48:59,456 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:48:59,458 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:48:59,471 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:48:59,471 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4200_0aa416c6417390a5d0dc.png
+2022-04-28 16:48:59,472 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:00,191 INFO    Thread-64 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/1rxqifsf-media/images/Images/train_4200_0aa416c6417390a5d0dc.png
+2022-04-28 16:49:00,472 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:01,818 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:49:01,818 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:49:02,474 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:03,777 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:03,778 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/val_4300_1196c66cea3295d5f988.png with policy now
+2022-04-28 16:49:03,778 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:03,783 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:03,785 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:03,787 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:04,437 INFO    Thread-65 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/73ltti7a-media/images/Images/val_4300_1196c66cea3295d5f988.png
+2022-04-28 16:49:04,489 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:04,490 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:04,490 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_4300_1196c66cea3295d5f988.png
+2022-04-28 16:49:04,490 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:06,493 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:06,898 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:06,898 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_4320_65306b4c8eabf4506448.png with policy now
+2022-04-28 16:49:06,898 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:06,904 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:06,906 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:06,909 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:07,496 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:07,496 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4320_65306b4c8eabf4506448.png
+2022-04-28 16:49:07,497 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:08,497 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:10,009 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:10,010 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:10,011 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_4400_b3fffe24cde4007d7fa2.png with policy now
+2022-04-28 16:49:10,018 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:10,020 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:10,023 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:10,267 INFO    Thread-66 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2u0bfq47-media/images/Images/train_4320_65306b4c8eabf4506448.png
+2022-04-28 16:49:10,501 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:10,502 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:10,502 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4400_b3fffe24cde4007d7fa2.png
+2022-04-28 16:49:10,502 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:10,831 INFO    Thread-67 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/1pxaxgf4-media/images/Images/train_4400_b3fffe24cde4007d7fa2.png
+2022-04-28 16:49:12,519 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:13,192 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:13,193 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_4500_d9f41e8e7038aaad1689.png with policy now
+2022-04-28 16:49:13,194 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:13,200 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:13,201 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:13,204 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:13,521 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:13,522 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4500_d9f41e8e7038aaad1689.png
+2022-04-28 16:49:13,522 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:14,007 INFO    Thread-68 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/28fc9b1r-media/images/Images/train_4500_d9f41e8e7038aaad1689.png
+2022-04-28 16:49:14,524 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:16,325 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:16,325 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_4600_af849ab215683a4e7fe4.png with policy now
+2022-04-28 16:49:16,325 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:16,329 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:16,330 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:16,332 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:16,526 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:16,527 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:16,527 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4600_af849ab215683a4e7fe4.png
+2022-04-28 16:49:16,527 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:17,014 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:49:17,015 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:49:17,079 INFO    Thread-69 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/16nn1vdd-media/images/Images/train_4600_af849ab215683a4e7fe4.png
+2022-04-28 16:49:18,530 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:19,485 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:19,486 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_4700_5deb76898d0e93955748.png with policy now
+2022-04-28 16:49:19,486 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:19,491 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:19,492 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:19,494 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:19,533 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:19,533 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4700_5deb76898d0e93955748.png
+2022-04-28 16:49:19,534 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:19,859 DEBUG   SenderThread:9022 [sender.py:send():232] send: stats
+2022-04-28 16:49:20,278 INFO    Thread-70 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/3k41e4j3-media/images/Images/train_4700_5deb76898d0e93955748.png
+2022-04-28 16:49:20,534 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:22,536 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:24,540 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:24,618 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:24,619 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:24,621 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/val_4800_16cbac85c7ebf3af8e09.png with policy now
+2022-04-28 16:49:24,623 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:24,624 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:24,627 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:25,490 INFO    Thread-71 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/1dqk6y1j-media/images/Images/val_4800_16cbac85c7ebf3af8e09.png
+2022-04-28 16:49:25,542 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:25,543 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_4800_16cbac85c7ebf3af8e09.png
+2022-04-28 16:49:25,543 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:25,970 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:25,970 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_4860_9bfd0e6aee3aa400b1b3.png with policy now
+2022-04-28 16:49:25,970 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:25,976 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:25,978 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:25,982 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:26,544 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:26,544 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:26,544 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4860_9bfd0e6aee3aa400b1b3.png
+2022-04-28 16:49:26,544 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:27,105 INFO    Thread-72 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/35b29gbf-media/images/Images/train_4860_9bfd0e6aee3aa400b1b3.png
+2022-04-28 16:49:28,547 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:29,815 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:29,816 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:29,816 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_4900_079d0e7347ebd836f783.png with policy now
+2022-04-28 16:49:29,821 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:29,822 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:29,824 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:30,553 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:30,553 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:30,554 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4900_079d0e7347ebd836f783.png
+2022-04-28 16:49:30,554 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:30,597 INFO    Thread-73 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/4vs4iz9z-media/images/Images/train_4900_079d0e7347ebd836f783.png
+2022-04-28 16:49:32,341 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:49:32,342 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:49:32,557 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:33,077 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:33,077 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_5000_841facc34673d600b7e9.png with policy now
+2022-04-28 16:49:33,077 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:33,083 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:33,084 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:33,085 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:33,559 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:33,560 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_5000_841facc34673d600b7e9.png
+2022-04-28 16:49:33,560 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:34,043 INFO    Thread-74 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/25y69n65-media/images/Images/train_5000_841facc34673d600b7e9.png
+2022-04-28 16:49:34,575 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:36,149 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:36,150 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_5100_efdebd0d17a53d008544.png with policy now
+2022-04-28 16:49:36,151 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:36,159 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:36,161 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:36,163 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:36,580 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:36,580 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:36,580 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_5100_efdebd0d17a53d008544.png
+2022-04-28 16:49:36,580 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:36,937 INFO    Thread-75 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2rouluat-media/images/Images/train_5100_efdebd0d17a53d008544.png
+2022-04-28 16:49:38,584 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:39,875 DEBUG   SenderThread:9022 [sender.py:send():232] send: files
+2022-04-28 16:49:39,875 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file media/images/Images/train_5200_a7fa4181632eda96f137.png with policy now
+2022-04-28 16:49:39,877 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 16:49:39,882 DEBUG   SenderThread:9022 [sender.py:send():232] send: history
+2022-04-28 16:49:39,883 DEBUG   SenderThread:9022 [sender.py:send():232] send: summary
+2022-04-28 16:49:39,885 INFO    SenderThread:9022 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-28 16:49:40,587 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:40,588 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:49:40,588 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_created():213] file/dir created: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_5200_a7fa4181632eda96f137.png
+2022-04-28 16:49:40,588 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images
+2022-04-28 16:49:40,740 INFO    Thread-76 :9022 [upload_job.py:push():137] Uploaded file /tmp/tmp3mr7n4plwandb/2jyy0i0i-media/images/Images/train_5200_a7fa4181632eda96f137.png
+2022-04-28 16:49:42,591 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:42,803 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 16:49:42,803 INFO    HandlerThread:9022 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 16:49:43,248 DEBUG   SenderThread:9022 [sender.py:send():232] send: stats
+2022-04-28 16:49:44,595 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:49:47,542 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:49:47,542 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:50:02,900 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:50:02,901 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:50:18,121 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:50:18,122 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:50:33,333 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:50:33,334 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:50:35,364 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 16:50:35,364 INFO    HandlerThread:9022 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 16:50:35,630 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 16:50:35,630 INFO    HandlerThread:9022 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 16:50:36,219 DEBUG   SenderThread:9022 [sender.py:send():232] send: stats
+2022-04-28 16:50:36,703 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:50:48,548 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:50:48,548 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:51:03,222 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 16:51:03,222 INFO    HandlerThread:9022 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 16:51:03,235 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 16:51:03,235 INFO    HandlerThread:9022 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 16:51:04,205 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:51:04,207 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:51:04,561 DEBUG   SenderThread:9022 [sender.py:send():232] send: stats
+2022-04-28 16:51:10,212 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 16:51:10,212 INFO    HandlerThread:9022 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 16:51:10,232 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 16:51:10,232 INFO    HandlerThread:9022 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 16:51:10,774 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:51:11,303 DEBUG   SenderThread:9022 [sender.py:send():232] send: stats
+2022-04-28 16:51:16,449 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: resume
+2022-04-28 16:51:16,450 INFO    HandlerThread:9022 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-28 16:51:16,474 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: pause
+2022-04-28 16:51:16,474 INFO    HandlerThread:9022 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-28 16:51:17,267 DEBUG   SenderThread:9022 [sender.py:send():232] send: stats
+2022-04-28 16:51:18,794 INFO    Thread-7  :9022 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:51:19,564 DEBUG   HandlerThread:9022 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 16:51:19,564 DEBUG   SenderThread:9022 [sender.py:send_request():246] send_request: stop_status
+2022-04-28 16:51:26,125 WARNING MainThread:9022 [internal.py:is_dead():387] Internal process exiting, parent pid 7482 disappeared
+2022-04-28 16:51:26,126 ERROR   MainThread:9022 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-04-28 16:51:26,578 INFO    HandlerThread:9022 [handler.py:finish():806] shutting down handler
+2022-04-28 16:51:26,585 INFO    WriterThread:9022 [datastore.py:close():279] close: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/run-3ikynpbl.wandb
+2022-04-28 16:51:26,774 INFO    SenderThread:9022 [sender.py:finish():1106] shutting down sender
+2022-04-28 16:51:26,775 INFO    SenderThread:9022 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-04-28 16:51:26,799 INFO    SenderThread:9022 [dir_watcher.py:finish():309] scan: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files
+2022-04-28 16:51:26,799 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/config.yaml config.yaml
+2022-04-28 16:51:26,800 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/requirements.txt requirements.txt
+2022-04-28 16:51:26,800 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/conda-environment.yaml conda-environment.yaml
+2022-04-28 16:51:26,800 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-metadata.json wandb-metadata.json
+2022-04-28 16:51:26,801 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log output.log
+2022-04-28 16:51:26,819 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json wandb-summary.json
+2022-04-28 16:51:26,848 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_0_9c4d10052b3286971401.png media/images/Images/train_0_9c4d10052b3286971401.png
+2022-04-28 16:51:26,849 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4600_af849ab215683a4e7fe4.png media/images/Images/train_4600_af849ab215683a4e7fe4.png
+2022-04-28 16:51:26,849 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4000_db2627dc2c73c6c12e0a.png media/images/Images/train_4000_db2627dc2c73c6c12e0a.png
+2022-04-28 16:51:26,849 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1500_f32fd069ab82b605dd48.png media/images/Images/train_1500_f32fd069ab82b605dd48.png
+2022-04-28 16:51:26,849 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4860_9bfd0e6aee3aa400b1b3.png media/images/Images/train_4860_9bfd0e6aee3aa400b1b3.png
+2022-04-28 16:51:26,850 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1700_1ebbe67ef73974869b3a.png media/images/Images/train_1700_1ebbe67ef73974869b3a.png
+2022-04-28 16:51:26,851 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1900_55789cf07c33f4684fcc.png media/images/Images/train_1900_55789cf07c33f4684fcc.png
+2022-04-28 16:51:26,851 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4320_65306b4c8eabf4506448.png media/images/Images/train_4320_65306b4c8eabf4506448.png
+2022-04-28 16:51:26,851 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_100_772346e4d80b879d27ef.png media/images/Images/train_100_772346e4d80b879d27ef.png
+2022-04-28 16:51:26,852 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3900_b26f0cc27543741beb79.png media/images/Images/train_3900_b26f0cc27543741beb79.png
+2022-04-28 16:51:26,852 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3800_47d0df596d95278db478.png media/images/Images/train_3800_47d0df596d95278db478.png
+2022-04-28 16:51:26,852 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_5200_a7fa4181632eda96f137.png media/images/Images/train_5200_a7fa4181632eda96f137.png
+2022-04-28 16:51:26,852 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2000_a49eb0664318ba5d1c3c.png media/images/Images/train_2000_a49eb0664318ba5d1c3c.png
+2022-04-28 16:51:26,853 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1100_c3907863ebab5ead6bf1.png media/images/Images/train_1100_c3907863ebab5ead6bf1.png
+2022-04-28 16:51:26,853 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3100_fe339869519822993bda.png media/images/Images/train_3100_fe339869519822993bda.png
+2022-04-28 16:51:26,853 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4400_b3fffe24cde4007d7fa2.png media/images/Images/train_4400_b3fffe24cde4007d7fa2.png
+2022-04-28 16:51:26,853 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_0_f09ec775b168767f7f7f.png media/images/Images/train_0_f09ec775b168767f7f7f.png
+2022-04-28 16:51:26,853 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_3200_cfaca721bca18b2b8507.png media/images/Images/val_3200_cfaca721bca18b2b8507.png
+2022-04-28 16:51:26,854 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_4300_1196c66cea3295d5f988.png media/images/Images/val_4300_1196c66cea3295d5f988.png
+2022-04-28 16:51:26,854 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2700_2d8a96777a8a12ab8c77.png media/images/Images/train_2700_2d8a96777a8a12ab8c77.png
+2022-04-28 16:51:26,854 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_2600_034428e37251ee8f7042.png media/images/Images/val_2600_034428e37251ee8f7042.png
+2022-04-28 16:51:26,854 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4900_079d0e7347ebd836f783.png media/images/Images/train_4900_079d0e7347ebd836f783.png
+2022-04-28 16:51:26,854 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_700_031c9ae801bb37122e9a.png media/images/Images/train_700_031c9ae801bb37122e9a.png
+2022-04-28 16:51:26,854 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1300_c3c7bd353f4d6f65cf18.png media/images/Images/train_1300_c3c7bd353f4d6f65cf18.png
+2022-04-28 16:51:26,855 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_1600_ecc2ea0226c270b16f05.png media/images/Images/val_1600_ecc2ea0226c270b16f05.png
+2022-04-28 16:51:26,855 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_800_9df908fda2148db60e15.png media/images/Images/train_800_9df908fda2148db60e15.png
+2022-04-28 16:51:26,855 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3500_a0f4360bf648db93f5b1.png media/images/Images/train_3500_a0f4360bf648db93f5b1.png
+2022-04-28 16:51:26,855 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3000_2dec1d91b787bd9cd97c.png media/images/Images/train_3000_2dec1d91b787bd9cd97c.png
+2022-04-28 16:51:26,855 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_900_30700c7bfa0f3511907b.png media/images/Images/train_900_30700c7bfa0f3511907b.png
+2022-04-28 16:51:26,855 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4200_0aa416c6417390a5d0dc.png media/images/Images/train_4200_0aa416c6417390a5d0dc.png
+2022-04-28 16:51:26,856 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2500_a6fb02f6a2c0f5718a0d.png media/images/Images/train_2500_a6fb02f6a2c0f5718a0d.png
+2022-04-28 16:51:26,856 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1080_1a0545dac7ac29c739b0.png media/images/Images/train_1080_1a0545dac7ac29c739b0.png
+2022-04-28 16:51:26,856 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3600_4c490265127b5d1f621d.png media/images/Images/train_3600_4c490265127b5d1f621d.png
+2022-04-28 16:51:26,856 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2200_94b590fc6d7e88982e24.png media/images/Images/train_2200_94b590fc6d7e88982e24.png
+2022-04-28 16:51:26,856 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_540_52e7ccee9d70bbcbf603.png media/images/Images/train_540_52e7ccee9d70bbcbf603.png
+2022-04-28 16:51:26,856 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1200_d88afe6e748ac96a0ec8.png media/images/Images/train_1200_d88afe6e748ac96a0ec8.png
+2022-04-28 16:51:26,857 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_500_1e08670bd870fd10e348.png media/images/Images/val_500_1e08670bd870fd10e348.png
+2022-04-28 16:51:26,857 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2160_d89018b70d63b6515b87.png media/images/Images/train_2160_d89018b70d63b6515b87.png
+2022-04-28 16:51:26,857 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1400_34ac42fc8464c20d386e.png media/images/Images/train_1400_34ac42fc8464c20d386e.png
+2022-04-28 16:51:26,857 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_5100_efdebd0d17a53d008544.png media/images/Images/train_5100_efdebd0d17a53d008544.png
+2022-04-28 16:51:26,857 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_400_5070e7b20edef76c940e.png media/images/Images/train_400_5070e7b20edef76c940e.png
+2022-04-28 16:51:26,857 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_200_9967bbfbd4cb8eece6c7.png media/images/Images/train_200_9967bbfbd4cb8eece6c7.png
+2022-04-28 16:51:26,858 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_2100_e53119859bb5521c818d.png media/images/Images/val_2100_e53119859bb5521c818d.png
+2022-04-28 16:51:26,858 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_4800_16cbac85c7ebf3af8e09.png media/images/Images/val_4800_16cbac85c7ebf3af8e09.png
+2022-04-28 16:51:26,858 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2800_6216a58603bbfdbb9c77.png media/images/Images/train_2800_6216a58603bbfdbb9c77.png
+2022-04-28 16:51:26,858 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_1000_1e058c64b01129871bed.png media/images/Images/val_1000_1e058c64b01129871bed.png
+2022-04-28 16:51:26,858 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3240_4757f92a31055d483c33.png media/images/Images/train_3240_4757f92a31055d483c33.png
+2022-04-28 16:51:26,858 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3780_6b1c3c71108a1b5d78c3.png media/images/Images/train_3780_6b1c3c71108a1b5d78c3.png
+2022-04-28 16:51:26,859 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2400_c40f35029b1cc5c7f5a8.png media/images/Images/train_2400_c40f35029b1cc5c7f5a8.png
+2022-04-28 16:51:26,859 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_3700_be1013d197c3cc276f50.png media/images/Images/val_3700_be1013d197c3cc276f50.png
+2022-04-28 16:51:26,860 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2700_6385ad00910376da1ddc.png media/images/Images/train_2700_6385ad00910376da1ddc.png
+2022-04-28 16:51:26,860 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2900_65d45d6557271d3a0f50.png media/images/Images/train_2900_65d45d6557271d3a0f50.png
+2022-04-28 16:51:26,860 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3400_aa73eea51934498eb489.png media/images/Images/train_3400_aa73eea51934498eb489.png
+2022-04-28 16:51:26,860 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4500_d9f41e8e7038aaad1689.png media/images/Images/train_4500_d9f41e8e7038aaad1689.png
+2022-04-28 16:51:26,860 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4100_7bbdf3dc8719c65f4fa7.png media/images/Images/train_4100_7bbdf3dc8719c65f4fa7.png
+2022-04-28 16:51:26,860 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_4700_5deb76898d0e93955748.png media/images/Images/train_4700_5deb76898d0e93955748.png
+2022-04-28 16:51:26,861 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_5000_841facc34673d600b7e9.png media/images/Images/train_5000_841facc34673d600b7e9.png
+2022-04-28 16:51:26,861 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/val_0_4eb6eb3f853b281faf55.png media/images/Images/val_0_4eb6eb3f853b281faf55.png
+2022-04-28 16:51:26,861 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_2300_fa7dca18311185a3a026.png media/images/Images/train_2300_fa7dca18311185a3a026.png
+2022-04-28 16:51:26,861 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1800_722b5ed01801cb2da0fd.png media/images/Images/train_1800_722b5ed01801cb2da0fd.png
+2022-04-28 16:51:26,861 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_300_988d507c062425abbc80.png media/images/Images/train_300_988d507c062425abbc80.png
+2022-04-28 16:51:26,861 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_1620_6b8253e998a95112cbf4.png media/images/Images/train_1620_6b8253e998a95112cbf4.png
+2022-04-28 16:51:26,861 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_3300_bd62f9bd427c90da61cd.png media/images/Images/train_3300_bd62f9bd427c90da61cd.png
+2022-04-28 16:51:26,861 INFO    SenderThread:9022 [dir_watcher.py:finish():323] scan save: /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/media/images/Images/train_600_613fdc0a4e85403f24da.png media/images/Images/train_600_613fdc0a4e85403f24da.png
+2022-04-28 16:51:26,862 INFO    SenderThread:9022 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-28 16:51:26,862 INFO    SenderThread:9022 [file_pusher.py:join():150] waiting for file pusher
+2022-04-28 16:51:27,611 INFO    Thread-81 :9022 [upload_job.py:push():137] Uploaded file /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/config.yaml
+2022-04-28 16:51:27,643 INFO    Thread-85 :9022 [upload_job.py:push():137] Uploaded file /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/wandb-summary.json
+2022-04-28 16:51:27,652 INFO    Thread-84 :9022 [upload_job.py:push():137] Uploaded file /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/output.log
+2022-04-28 16:51:27,655 INFO    Thread-82 :9022 [upload_job.py:push():137] Uploaded file /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/requirements.txt
+2022-04-28 16:51:27,805 INFO    Thread-83 :9022 [upload_job.py:push():137] Uploaded file /home/jmj3047/mj_MLP_prac/wandb/run-20220428_164541-3ikynpbl/files/conda-environment.yaml
+2022-04-28 16:51:29,103 INFO    MainThread:9022 [internal.py:handle_exit():80] Internal process exited
